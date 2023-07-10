@@ -1,0 +1,19 @@
+/* styles.css */
+
+.odds {
+    background-color: pink;
+}
+
+.cooler {
+    font-size: x-large;
+}
+
+#ID1 {
+    font-size: xx-large;
+    color: blue;
+}
+
+#ID2 {
+    font-weight: bold;
+    background-color: lightgreen;
+}
