@@ -20,9 +20,13 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display:flex;
+  padding: 8px;
+  border: 2px darkturquoise solid;
+  align-items: flex-start; 
 }
 
-.icon {
+.warning-icon {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -33,6 +37,37 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+  margin: 8px;
+  border: 2px darkorange solid;
+}
+
+.popup-content {
+  border: 2px darkblue solid;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px darkred solid;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text {
+  border: 2px darkgreen solid;
+  margin: 4px 0px;
+}
+
+.button-row {
+  border: 2px darkmagenta solid;
 }
 
 .close-button {
